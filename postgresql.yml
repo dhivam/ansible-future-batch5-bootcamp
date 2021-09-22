@@ -1,0 +1,7 @@
+---
+- name: Install and configuration postgresql
+  hosts: cluster
+  remote_user: future
+  become: yes
+  roles:
+    - postgresql

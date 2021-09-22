@@ -1,0 +1,4 @@
+---
+mongodb_repo: MongoDB Repository
+baseurl_mongodb: https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/5.0/x86_64/
+gpgkey_mongodb: https://www.mongodb.org/static/pgp/server-5.0.asc

@@ -1,0 +1,8 @@
+---
+- name: Install and configuration prometheus
+  hosts: cluster
+  remote_user: future
+  become: yes
+  roles:
+    - prometheus
+

@@ -1,0 +1,12 @@
+[localhost]
+127.0.0.1
+
+[server1]
+192.168.56.166
+
+[server2]
+192.168.56.167
+
+[cluster:children]
+server1
+server2
